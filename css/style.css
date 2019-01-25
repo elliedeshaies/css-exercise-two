@@ -1,10 +1,35 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: rgba(25, 25, 76, 0.2);
+  color: #19194C;
+  font-size: 16px;
+  font-family: helvetica, sans-serif;
+
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: .75em;
+  margin-bottom: .75em;
+  text-transform: capitalize;
+}
+
+p {
+  font-size: 100%;
+  line-height: 135%;
+  margin-bottom: 1.2em;
+}
+
+figcaption {
+  font-size: .85em
+}
+
+h3 {
+  font-size: 1.3em;
+  margin-bottom: 1em;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(25, 25, 76, 0.3);
   float: left;
   position: fixed;
   width: 100%;
@@ -40,6 +65,22 @@ ul {
 li {
   float: right;
   padding: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #FFFFFF;
+}
+
+a:visited {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #19194C;
 }
 
 article {
